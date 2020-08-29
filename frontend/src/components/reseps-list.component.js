@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Card, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Resep = props => (
@@ -14,7 +14,7 @@ const Resep = props => (
 	// </tr>
 	<Col md={6} xs={12}>
 		<Card border="light" >
-			<Card.Img src="./balado-kentang.jpg"/>
+			<Card.Img src={props.resep.gambar}/>
 			<Card.Body>
 				<Card.Title>{props.resep.nama}</Card.Title>
 				<Card.Text>
@@ -60,7 +60,7 @@ export default class ResepsList extends Component {
 	render() {
 		return (
 			<div>
-				<h3>Logged Reseps</h3>
+				<h3>Kumpulan Resep</h3>
 				{/* <table className="table">
 					<thead className="thead-light">
 						<tr>

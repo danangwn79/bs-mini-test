@@ -12,7 +12,7 @@ export default class Navbar extends Component {
                         <li className="navbar-item">
                             <Link to="/" className="nav-link">Kumpulan Resep</Link>
                         </li>
-                        <li className="navbar-item">
+                         <li className="navbar-item">
                             <Link to="/create" className="nav-link">Tambah Resep</Link>
                         </li>
                     </ul>

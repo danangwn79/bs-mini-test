@@ -76,7 +76,7 @@ export default class CreateResep extends Component {
             />
           </div>
           <div className="form-group">
-            <label>Gambar: </label>
+            <label>Gambar(copy link foto masakan disini): </label>
             <input
               type="text"
               className="form-control"
